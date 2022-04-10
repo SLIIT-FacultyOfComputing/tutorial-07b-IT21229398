@@ -13,7 +13,18 @@ int main() {
    cout << "Enter radius of Circle : ";
    cin >> radius;
    // ======== DO NOT CHANGE THE CODE GIVEN ABOVE ====================
-   
+
+  Rectangle * rec1;
+
+  rec1 = new Rectangle (length,width);
+
+  Circle * cir1;
+
+  cir1= new Circle(radius);
+
+  rec1->display();
+  cir1->display();
+  
    // 1. Create a dynamic Rectangle type variable (pointer)
    // 2. Create a dynamic Rectangle Object set the length and width that was input from the keyboard
    // 3. Create a dynamic Circle type variable (pointer)
